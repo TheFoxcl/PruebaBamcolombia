@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Servicio de Valoracion de Riesgos Operacionales</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="front.css">
+    <script defer src="front.js"></script>
+    <link rel="icon" href="LogoBancolombia pestana.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" />
+</head>
+<body>
+    <div class="container">
+        <header><h2 id="titulo"><img class="logo" src="LogoBancolombia.png"> Servicio de Valoracion de Riesgos Operacionales</h2></header>
+        <h3>configuración del servicio</h3>
+        <div class="select">
+            <div class="select">
+            <label for="Tipo de Valoración">Tipo de Valoracion:</label><br>
+            <select name="Tipo de Valoración" id="seleccionador" required class="TdV">
+                <option value="" id="placeholder" disabled selected hidden>Tipo de Valoracion</option>
+                <option value="Valoración tradicional">Valoración tradicional</option>
+                <option value="Valorsación con duración">Valoración con duración</option>
+            </select>
+            </div>
+            <div class="select selector2">
+                <label for="Tipo de Frecuencia 2">Tipo de Frecuencia:</label><br>
+                <select name="Tipo de Frecuencia 2" id="seleccionador" required>
+                    <option value=""  id="placeholder" disabled selected hidden>Tipo de Frecuencia</option>
+                    <option value="metodo 1">Método 1</option>
+                    <option value="metodo 2">Método 2</option>
+                    <option value="metodo 3">Método 3</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <h4>impacto($)</h4>
+            <div class="tabla1" id="tabla"></div>
+        </div>
+    </div>
+</body>
+</html>
