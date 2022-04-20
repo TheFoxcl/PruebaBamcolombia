@@ -17,9 +17,9 @@
         </header>
 
         <div class="fila">
-            <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
-            <h2 id="titulo" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">Servicio de Valoracion de Riesgos Operacionales</h2>
-            <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+            <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+            <h2 id="titulo" class="col-lg-8 col-md-8 col-sm-12 col-xs-12">Servicio de Valoracion de Riesgos Operacionales</h2>
+            <div class="col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
         </div>
 
             <div class="fila">
@@ -31,8 +31,8 @@
         </div>
         <div class="select fila">
             <div class="fila">
-                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-0"></div>
-                <div class="select col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+                <div class="select col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <label for="Tipo de Valoración">Tipo de Valoracion:</label><br>
                     <select name="Tipo de Valoración" id="seleccionador" required class="TdV">
                         <option value="" id="placeholder" disabled selected hidden>Tipo de Valoracion</option>
@@ -40,11 +40,11 @@
                         <option value="Valorsación con duración">Valoración con duración</option>
                     </select>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-0"></div>
+                <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
             </div>
             <div class="fila">
-                <div class="col-lg-5 col-md-5 col-sm-0 col-xs-0"></div>
-                <div class="select selector2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+                <div class="select selector2 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <label for="Tipo de Frecuencia 2">Tipo de Frecuencia:</label><br>
                     <select name="Tipo de Frecuencia 2" id="seleccionador" required>
                         <option value=""  id="placeholder" disabled selected hidden>Tipo de Frecuencia</option>
@@ -53,12 +53,22 @@
                         <option value="metodo 3">Método 3</option>
                     </select>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-0 col-xs-0"></div>
+                <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
             </div>
         </div>
-        <div class="tabla col-lg-12 col-md-2 col-sm-3 col-xs-12">
-            <h4>impacto($)</h4>
-            <div class="tabla1" ></div>
+        <div class="fila displayTablas">
+            <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h4>Impacto($)</h4>
+                <div class="tabla">
+                    <div class="tabla1" ></div>
+                </div>
+            </div>
+            <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h4>Duración(horas)</h4>
+                <div class="tabla">
+                    <div class="tabla2" ></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
