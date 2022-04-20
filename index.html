@@ -11,30 +11,54 @@
 </head>
 <body>
     <div class="container">
-        <header><h2 id="titulo"><img class="logo" src="LogoBancolombia.png"> Servicio de Valoracion de Riesgos Operacionales</h2></header>
-        <h3>configuración del servicio</h3>
-        <div class="select">
-            <div class="select">
-            <label for="Tipo de Valoración">Tipo de Valoracion:</label><br>
-            <select name="Tipo de Valoración" id="seleccionador" required class="TdV">
-                <option value="" id="placeholder" disabled selected hidden>Tipo de Valoracion</option>
-                <option value="Valoración tradicional">Valoración tradicional</option>
-                <option value="Valorsación con duración">Valoración con duración</option>
-            </select>
+
+        <header class="fila">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"><img class="logo" src="LogoBancolombia.png"></div>
+        </header>
+
+        <div class="fila">
+            <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+            <h2 id="titulo" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">Servicio de Valoracion de Riesgos Operacionales</h2>
+            <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+        </div>
+
+            <div class="fila">
+                    <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+                    <h3 class="col-lg-4 col-md-4 col-sm-12 col-xs-12">configuración del servicio</h3>
+                    <div class="col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+            <div>
+
+        </div>
+        <div class="select fila">
+            <div class="fila">
+                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-0"></div>
+                <div class="select col-lg-4 col-md-4 col-sm-8 col-xs-12">
+                    <label for="Tipo de Valoración">Tipo de Valoracion:</label><br>
+                    <select name="Tipo de Valoración" id="seleccionador" required class="TdV">
+                        <option value="" id="placeholder" disabled selected hidden>Tipo de Valoracion</option>
+                        <option value="Valoración tradicional">Valoración tradicional</option>
+                        <option value="Valorsación con duración">Valoración con duración</option>
+                    </select>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-0"></div>
             </div>
-            <div class="select selector2">
-                <label for="Tipo de Frecuencia 2">Tipo de Frecuencia:</label><br>
-                <select name="Tipo de Frecuencia 2" id="seleccionador" required>
-                    <option value=""  id="placeholder" disabled selected hidden>Tipo de Frecuencia</option>
-                    <option value="metodo 1">Método 1</option>
-                    <option value="metodo 2">Método 2</option>
-                    <option value="metodo 3">Método 3</option>
-                </select>
+            <div class="fila">
+                <div class="col-lg-5 col-md-5 col-sm-0 col-xs-0"></div>
+                <div class="select selector2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <label for="Tipo de Frecuencia 2">Tipo de Frecuencia:</label><br>
+                    <select name="Tipo de Frecuencia 2" id="seleccionador" required>
+                        <option value=""  id="placeholder" disabled selected hidden>Tipo de Frecuencia</option>
+                        <option value="metodo 1">Método 1</option>
+                        <option value="metodo 2">Método 2</option>
+                        <option value="metodo 3">Método 3</option>
+                    </select>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-0 col-xs-0"></div>
             </div>
         </div>
-        <div>
+        <div class="tabla col-lg-12 col-md-2 col-sm-3 col-xs-12">
             <h4>impacto($)</h4>
-            <div class="tabla1" id="tabla"></div>
+            <div class="tabla1" ></div>
         </div>
     </div>
 </body>

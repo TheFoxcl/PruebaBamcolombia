@@ -30,7 +30,12 @@ const hot = new Handsontable(tabla1, {
         return{
             readOnly: true,
         };
-    }
+    },
+    afterCreateRow: function(index,numberOfRow){
+        baseTabla.splice(index,numberOfRow)
+    },
+    width: "auto",
+    height: 'auto'
 })
 
 
