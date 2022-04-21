@@ -59,6 +59,7 @@ const hot2 = new Handsontable(tabla2, {
             readOnly: true,
         };
     },
-   width: "100%"
+   width: "100%",
+   
 })
 })

@@ -9,7 +9,7 @@
 }
 [class*="col-"]{
     float: left;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     padding: 20px;
 }
 .container{
@@ -63,8 +63,9 @@ select:required:invalid {
     clear: both;
     display: table;
 }
-.tabla{
-    margin: auto;
+#tabla{
+    padding: 0;
+    width: 100%;
 }
 .displayTablas{
     display:none;
@@ -85,6 +86,9 @@ select:required:invalid {
     .col-lg-11{width:91.66666666666%;}
     .col-lg-0 {display: none;}
     #seccion4 article p img{width: 50%;}
+    option{
+        font-size: 1vw;
+    }
     }
     /*  Pantalla de escritorio mediana-medium(md)*/
     @media (min-width:992px) and (max-width:1190px){
@@ -101,6 +105,9 @@ select:required:invalid {
     .col-md-10{width:83.3333333333333%;}
     .col-md-11{width:91.66666666666%;}
     .col-md-0 {display: none;}
+    option{
+        font-size: 2vw;
+    }
     }
         /*  Pantalla de tablett pequena-small(sm)*/
     @media (min-width:768px) and (max-width:991px){
@@ -118,6 +125,9 @@ select:required:invalid {
     .col-sm-11{width:91.66666666666%;}
     .col-sm-0 {display: none;}
     .logo{width: 30%;}
+    option{
+        font-size: 2vw;
+    }
     }
     
         /*  Pantalla de celulares -extra small(xs)*/
