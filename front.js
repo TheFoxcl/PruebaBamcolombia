@@ -36,7 +36,7 @@ const tabla2 = document.querySelector('.tabla2');
 
 const hot1 = new Handsontable(tabla1, {
     data: baseTabla1,
-    colHeaders: ['Rango','Limite inferior','Limite Superior','Prob %'],
+    colHeaders: ['Rango','Límite inferior','Límite Superior','Prob %'],
     height: 'auto',
     licenseKey: 'non-commercial-and-evaluation',
     cells(row,col) {
@@ -50,7 +50,7 @@ const hot1 = new Handsontable(tabla1, {
 
 const hot2 = new Handsontable(tabla2, {
     data: baseTabla2,
-    colHeaders: ['Rango','Limite inferior','Limite Superior','Prob %'],
+    colHeaders: ['Rango','Límite inferior','Límite Superior','Prob %'],
     height: 'auto',
     licenseKey: 'non-commercial-and-evaluation',
     cells(row,col) {
